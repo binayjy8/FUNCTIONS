@@ -50,14 +50,18 @@
 // }
 
 
-let str = ["hi", "bye", "go", "there"];
+// let str = ["hi", "bye", "go", "there"];
 
-function misana(str) {
-    let result = "";
+// function misana(str) {
+//     let result = "";
 
-    for( let i=0; i<str.length; i++) {
-        result  += str[i];
-    }
+//     for( let i=0; i<str.length; i++) {
+//         result  += str[i];
+//     }
 
-    return result;
+//     return result;
+// }
+
+let diff = function (a, b) {
+    return a - b;
 }
