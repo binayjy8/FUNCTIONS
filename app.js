@@ -78,18 +78,30 @@
 
 // multipleGreet(greet, 7);
 
-function oddOrEvenFactory(request) {
-    if( request == "odd") {
-        return function(n) {
-            console.log(!(n%2==0));
-        }
-    } else if( request == "even") {
-        return function(n) {
-            console.log(n%2==0);
-        }
-    } else {
-        console.log("wrong request");
+// function oddOrEvenFactory(request) {
+//     if( request == "odd") {
+//         return function(n) {
+//             console.log(!(n%2==0));
+//         }
+//     } else if( request == "even") {
+//         return function(n) {
+//             console.log(n%2==0);
+//         }
+//     } else {
+//         console.log("wrong request");
+//     }
+// }
+
+// let request = "odd";
+
+const calculater = {
+    add(a, b) {
+        return a+b;
+    },
+    sub(a, b) {
+        return a-b;
+    },
+    mul(a, b) {
+        return a*b;
     }
 }
-
-let request = "odd";
