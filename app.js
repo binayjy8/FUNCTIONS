@@ -66,14 +66,30 @@
 //     return a - b;
 // }
 
-function multipleGreet( func, count) {
-    for( let i=1; i<=count; i++ ) {
-        func();
+// function multipleGreet( func, count) {
+//     for( let i=1; i<=count; i++ ) {
+//         func();
+//     }
+// }
+
+// let greet = function() {
+//     console.log("namaste");
+// }
+
+// multipleGreet(greet, 7);
+
+function oddOrEvenFactory(request) {
+    if( request == "odd") {
+        return function(n) {
+            console.log(!(n%2==0));
+        }
+    } else if( request == "even") {
+        return function(n) {
+            console.log(n%2==0);
+        }
+    } else {
+        console.log("wrong request");
     }
 }
 
-let greet = function() {
-    console.log("namaste");
-}
-
-multipleGreet(greet, 7);
+let request = "odd";
