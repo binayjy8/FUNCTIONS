@@ -25,10 +25,16 @@
 
 // calAvg(3, 5, 8);
 
-function printTable(n) {
-    for( let i=n; i<=n*10; i+=n){
-        console.log(i);
-    }
+// function printTable(n) {
+//     for( let i=n; i<=n*10; i+=n){
+//         console.log(i);
+//     }
+// }
+
+// printTable(2);
+
+function sumCalculate(a, b) {
+    return a+b;
 }
 
-printTable(2);
+console.log(sumCalculate(sumCalculate(3,4),7 ));
