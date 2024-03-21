@@ -39,12 +39,25 @@
 
 // console.log(sumCalculate(sumCalculate(3,4),7 ));
 
-function getSum(n) {
-    let sum = 0;
+// function getSum(n) {
+//     let sum = 0;
 
-    for(let i=1; i<=n; i++) {
-        sum += i;
+//     for(let i=1; i<=n; i++) {
+//         sum += i;
+//     }
+
+//     return sum;
+// }
+
+
+let str = ["hi", "bye", "go", "there"];
+
+function misana(str) {
+    let result = "";
+
+    for( let i=0; i<str.length; i++) {
+        result  += str[i];
     }
 
-    return sum;
+    return result;
 }
