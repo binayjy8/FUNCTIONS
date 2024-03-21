@@ -62,6 +62,18 @@
 //     return result;
 // }
 
-let diff = function (a, b) {
-    return a - b;
+// let diff = function (a, b) {
+//     return a - b;
+// }
+
+function multipleGreet( func, count) {
+    for( let i=1; i<=count; i++ ) {
+        func();
+    }
 }
+
+let greet = function() {
+    console.log("namaste");
+}
+
+multipleGreet(greet, 7);
