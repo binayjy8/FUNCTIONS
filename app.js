@@ -11,3 +11,9 @@ function rollDice() {
 }
 
 rollDice();
+
+function printGame(game) {
+    console.log(game);
+}
+
+printGame("cricket");
