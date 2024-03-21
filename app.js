@@ -18,9 +18,17 @@
 
 // printGame("cricket");
 
-function calAvg(a, b, c) {
-    let avg = (a+b+c)/3;
-    console.log(avg);
+// function calAvg(a, b, c) {
+//     let avg = (a+b+c)/3;
+//     console.log(avg);
+// }
+
+// calAvg(3, 5, 8);
+
+function printTable(n) {
+    for( let i=n; i<=n*10; i+=n){
+        console.log(i);
+    }
 }
 
-calAvg(3, 5, 8);
+printTable(2);
