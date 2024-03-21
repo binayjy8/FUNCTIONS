@@ -33,8 +33,18 @@
 
 // printTable(2);
 
-function sumCalculate(a, b) {
-    return a+b;
-}
+// function sumCalculate(a, b) {
+//     return a+b;
+// }
 
-console.log(sumCalculate(sumCalculate(3,4),7 ));
+// console.log(sumCalculate(sumCalculate(3,4),7 ));
+
+function getSum(n) {
+    let sum = 0;
+
+    for(let i=1; i<=n; i++) {
+        sum += i;
+    }
+
+    return sum;
+}
