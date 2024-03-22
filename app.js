@@ -128,10 +128,12 @@ function getUnique(str) {
     for(let i=0; i<str.length; i++) {
         let currCha = str[i];
 
-        if(ans.indexOf(currCha == -1)) {
+        if(ans.indexOf(currCha) == -1) {
             ans += currCha;
         }
     }
 
     return ans;
 }
+
+getUnique(str);
