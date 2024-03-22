@@ -94,14 +94,22 @@
 
 // let request = "odd";
 
-const calculater = {
-    add(a, b) {
-        return a+b;
-    },
-    sub(a, b) {
-        return a-b;
-    },
-    mul(a, b) {
-        return a*b;
-    }
+// const calculater = {
+//     add(a, b) {
+//         return a+b;
+//     },
+//     sub(a, b) {
+//         return a-b;
+//     },
+//     mul(a, b) {
+//         return a*b;
+//     }
+// }
+
+let arr = [8, 9, 10, 1, 2, 3, 4, 5, 6, 7];
+
+let num = 6;
+
+function getElements(arr, num) {
+    
 }
