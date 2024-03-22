@@ -106,16 +106,32 @@
 //     }
 // }
 
-let arr = [8, 9, 10, 1, 2, 3, 4, 5, 6, 7];
+// let arr = [8, 9, 10, 1, 2, 3, 4, 5, 6, 7];
 
-let num = 6;
+// let num = 6;
 
-function getElements(arr, num) {
-    for(let i=0; i<arr.length; i++) {
-        if(arr[i] > num) {
-            console.log(arr[i]);
+// function getElements(arr, num) {
+//     for(let i=0; i<arr.length; i++) {
+//         if(arr[i] > num) {
+//             console.log(arr[i]);
+//         }
+//     }
+// }
+
+// getElements(arr, num);
+
+let str = "abcdabcdefgggh";
+
+function getUnique(str) {
+    let ans = "";
+
+    for(let i=0; i<str.length; i++) {
+        let currCha = str[i];
+
+        if(ans.indexOf(currCha == -1)) {
+            ans += currCha;
         }
     }
-}
 
-getElements(arr, num);
+    return ans;
+}
