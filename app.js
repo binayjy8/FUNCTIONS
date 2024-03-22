@@ -120,20 +120,41 @@
 
 // getElements(arr, num);
 
-let str = "abcdabcdefgggh";
+// let str = "abcdabcdefgggh";
 
-function getUnique(str) {
-    let ans = "";
+// function getUnique(str) {
+//     let ans = "";
 
-    for(let i=0; i<str.length; i++) {
-        let currCha = str[i];
+//     for(let i=0; i<str.length; i++) {
+//         let currCha = str[i];
 
-        if(ans.indexOf(currCha) == -1) {
-            ans += currCha;
+//         if(ans.indexOf(currCha) == -1) {
+//             ans += currCha;
+//         }
+//     }
+
+//     return ans;
+// }
+
+// getUnique(str);
+
+let country = ["Australia", "Germany", "United states of America"];
+
+function longCountry(country) {
+    let ansIdx = 0;
+
+    for(let i=0; i<country.length; i++) {
+
+        let ansLan = country[ansIdx].length;
+
+        let currLen = country[i].length;
+
+        if( ansIdx < currLen) {
+            ansIdx = i;
         }
     }
 
-    return ans;
+    return country[ansIdx];
 }
 
-getUnique(str);
+longCountry(country);
