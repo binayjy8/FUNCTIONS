@@ -159,24 +159,34 @@
 
 // longCountry(country);
 
-let str = "apnacollege";
+// let str = "apnacollege";
 
-function countVowel(str) {
+// function countVowel(str) {
 
-    let count = 0;
+//     let count = 0;
 
-    for(let i=0; i<str.length; i++) {
+//     for(let i=0; i<str.length; i++) {
 
-        if( 
-            str.charAt(i) == "a" ||
-            str.charAt(i) == "e" ||
-            str.charAt(i) == "i" ||
-            str.charAt(i) == "o" ||
-            str.charAt(i) == "u" 
-        ) {
-            count++;
-        }
-    }
+//         if( 
+//             str.charAt(i) == "a" ||
+//             str.charAt(i) == "e" ||
+//             str.charAt(i) == "i" ||
+//             str.charAt(i) == "o" ||
+//             str.charAt(i) == "u" 
+//         ) {
+//             count++;
+//         }
+//     }
 
-    return count;
+//     return count;
+// }
+
+let start = 100;
+
+let end = 300;
+
+function getRandom(start, end) {
+    let diff = end - start;
+
+    return Math.floor(Math.random() * diff) + start;
 }
