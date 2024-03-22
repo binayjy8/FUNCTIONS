@@ -117,3 +117,5 @@ function getElements(arr, num) {
         }
     }
 }
+
+getElements(arr, num);
