@@ -138,23 +138,45 @@
 
 // getUnique(str);
 
-let country = ["Australia", "Germany", "United states of America"];
+// let country = ["Australia", "Germany", "United states of America"];
 
-function longCountry(country) {
-    let ansIdx = 0;
+// function longCountry(country) {
+//     let ansIdx = 0;
 
-    for(let i=0; i<country.length; i++) {
+//     for(let i=0; i<country.length; i++) {
 
-        let ansLan = country[ansIdx].length;
+//         let ansLan = country[ansIdx].length;
 
-        let currLen = country[i].length;
+//         let currLen = country[i].length;
 
-        if( ansIdx < currLen) {
-            ansIdx = i;
+//         if( ansIdx < currLen) {
+//             ansIdx = i;
+//         }
+//     }
+
+//     return country[ansIdx];
+// }
+
+// longCountry(country);
+
+let str = "apnacollege";
+
+function countVowel(str) {
+
+    let count = 0;
+
+    for(let i=0; i<str.length; i++) {
+
+        if( 
+            str.charAt(i) == "a" ||
+            str.charAt(i) == "e" ||
+            str.charAt(i) == "i" ||
+            str.charAt(i) == "o" ||
+            str.charAt(i) == "u" 
+        ) {
+            count++;
         }
     }
 
-    return country[ansIdx];
+    return count;
 }
-
-longCountry(country);
