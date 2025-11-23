@@ -1,1 +1,1 @@
-Binay bhusan mohanta. Aut
+Binay bhusan mohanta. Auth
