@@ -1,1 +1,1 @@
-Binay bhusan mohanta. Autho
+Binay bhusan mohanta. Author
