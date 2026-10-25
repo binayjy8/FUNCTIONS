@@ -1,1 +1,1 @@
-Binay bhusan mohanta. The make making with func
+Binay bhusan mohanta. The make making with funct
