@@ -1,1 +1,1 @@
-Binay bhusan mohanta. The make making with function alwy
+Binay bhusan mohanta. The make making with function alway
