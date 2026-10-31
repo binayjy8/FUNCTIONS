@@ -1,1 +1,1 @@
-Binay bhusan mohanta. The make making with function always sound and in the averag
+Binay bhusan mohanta. The make making with function always sound and in the average
